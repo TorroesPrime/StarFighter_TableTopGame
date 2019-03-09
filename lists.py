@@ -2,8 +2,8 @@ import class_canons
 import class_pilot
 import class_ship
 import class_WingMember
-List_pilots = []
-SuccessfulAttacks = []
+list_pilots = []
+successful_Attacks = []
 misses = []
 dodges = []
 hits = []

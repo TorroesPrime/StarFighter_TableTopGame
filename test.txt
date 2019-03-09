@@ -1,1 +1,18 @@
-test
+"pilot":
+            {
+                "name": "Alicia 'Fire Storm' Heinz",
+                "faction": faction[1],
+                "pilotskill":4,
+                "gunneryskill":6,
+                "Psych":6,
+                "ability":pilot_abilities['firestorm']
+            }
+            "pilot":
+            {
+                "name": "Bakhtosh 'Redclaw' nar Kilranka",
+                "faction": faction[4],
+                "pilotskill":9,
+                "gunneryskill":5,
+                "Psych":6,
+                "ability":pilot_abilities['redclaw']
+            }

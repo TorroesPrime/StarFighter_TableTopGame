@@ -10,9 +10,9 @@ class cannons:
         print("|     Name      | Range | Dmg | Shots | Special:                    |")
         print(f"| {self.name} |  {self.can_range}   | {self.can_damage}  |  {self.can_shots}  |{self.can_special}                    |")
         print("="*75)
-    def GetCost(self):
+    def get_cost(self):
         return self.cost
-    def GetName(self):
+    def get_name(self):
         return self.name
-    def GetRange(self):
+    def get_range(self):
         return self.can_range
