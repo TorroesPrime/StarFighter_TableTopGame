@@ -7,8 +7,23 @@ class cannons:
         self.can_special = can_special
         self.cost = cost
     def card(self):
-        print("|     Name      | Range | Dmg | Shots | Special:                    |")
-        print(f"| {self.name} |  {self.can_range}   | {self.can_damage}  |  {self.can_shots}  |{self.can_special}                    |")
+        name = " "+self.name+" "*(17-len(self.name)+1)
+        if len(str(self.can_range)) == 2:
+            cannon_range = "  "+str(self.can_range)+"   "
+        else:
+            cannon_range = "   "+str(self.can_range)+"   "
+        
+        if len(str(self.can_damage)) == 2:
+            cannon_damage = " "+str(self.can_damage)+"  "
+        else:
+            cannon_damage = "  "+str(self.can_damage)+"  "
+        if (len(str(self.can_shots))) == 2:
+            shots = " "+str(self.can_shots)+"   "
+        else:
+            shots = "   "+str(self.can_shots)+"   "
+        
+        print("|      Name         | Range | Dmg | Shots | Special:                      |")
+        print(f"|{name}|{cannon_range}|{cannon_damage}|{shots}|{self.can_special}                           |")
         print("="*75)
     def get_cost(self):
         return self.cost
