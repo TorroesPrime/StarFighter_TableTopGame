@@ -14,7 +14,12 @@ class ship():
         self.point = 10
         self.canon = canon
         self.cost = int(((self.burn+self.turn+self.shields+self.hullpoints)*self.point)+(5*self.guns_number)+(canon.cost*self.guns_number))
-        
+    def getName(self):
+        return self.name
+    def setCost(self, cost):
+        self.__points = cost
+    def getCost(self):
+        return self.__cost
     def card(self):
         cost1 = "| "+(" ")*int((10-len(str(self.cost))-1)/2)+str(self.cost)
         cost2 = " "*(10-len(cost1))+" |"
