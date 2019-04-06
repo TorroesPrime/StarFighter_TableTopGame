@@ -1,4 +1,5 @@
 from class_canons import *
+import test_control
 #(self,name,can_range,can_damage,can_shots,can_special,cost):
 Tachyon = cannons("Tachyon Cannon",10,4,3,"none",15)
 Massdriver = cannons("Mass Driver",10,6,1,"none",10)
@@ -28,6 +29,6 @@ canons.append(PlasmaC)
 canons.append(PlasmaR)
 canons.append(Meson)
 canons.append(Laser)
-
-for canon in canons:
-    canon.card()
+if test_control.test:
+    for canon in canons:
+        canon.card()

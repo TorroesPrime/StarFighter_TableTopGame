@@ -1,10 +1,13 @@
 from class_pilot import *
 import json
-#from class_pilot import pilot
-#from class_pilot import faction
+import test_control
 
+# from class_pilot import pilot
+# from class_pilot import faction
 
-pilots_string ="""
+pilotsConfed = []
+pilotsKilrathi = []
+pilots_string = """
     {
         "pilot":
             {
@@ -197,7 +200,46 @@ pilots_string ="""
             }
        }
     """
-with open('pilot_files.json','w') as output:
+with open('pilot_files.json', 'w') as output:
     json.dumps(pilots_string)
 output.close()
 
+# (self, name, faction, PilotSkill,GunnerySkill,Psych,Ability)
+K001 = pilot("Kilranka Blood sworn", faction[4], 7, 7, 7, pilot_abilities['bloodsworn'])
+Pilots_DB.append(K001)
+K002 = pilot("Khajja nar Ja'targk", faction[4], 8, 8, 7, pilot_abilities['khajja'])
+Pilots_DB.append(K002)
+C001 = pilot("Gwen 'Archer' Bowman", faction[1], 3, 5, 7, pilot_abilities['bowman'])
+Pilots_DB.append(C001)
+K003 = pilot("Bakhtosh 'Redclaw' nar Kiranka", faction[4], 9, 5, 7, pilot_abilities['redclaw'])
+Pilots_DB.append(K003)
+K004 = pilot("Bhurak 'Starkiller' nar Caxki", faction[4], 8, 7, 7, pilot_abilities['starkiller'])
+Pilots_DB.append(K004)
+K005 = pilot("Dakhat nar Sihkag", faction[4], 7, 8, 7, pilot_abilities['dakhath'])
+Pilots_DB.append(K005)
+K006 = pilot("First Tooth pilot", faction[4], 3, 2, 4, pilot_abilities['dakhath'])
+Pilots_DB.append(K006)
+K007 = pilot("Prince Thrakath nar Kilranka", faction[4], 8, 9, 9, pilot_abilities['Thrakath'])
+Pilots_DB.append(K007)
+C002 = pilot("'Seether'", faction[1], 9, 8, 9, pilot_abilities['seether'])
+Pilots_DB.append(C002)
+C003 = pilot("Troy 'Cathscratch' Carter", faction[1], 4, 4, 4, pilot_abilities['catscratch'])
+Pilots_DB.append(C003)
+C004 = pilot("Winston 'Vagabond' Chang", faction[1], 5, 7, 7, pilot_abilities['vagabond'])
+Pilots_DB.append(C004)
+
+for pilot in Pilots_DB:
+    if pilot.faction == "Confederation":
+        pilotsConfed.append(pilot)
+    elif pilot.faction == "Kilrathi":
+        pilotsKilrathi.append(pilot)
+
+#print("pilots of the Confederation")
+#for pilot in pilotsConfed:
+#    pilot.card()
+
+if test_control.test:
+    print("Kilrathi Pilots")
+    for pilot in pilotsKilrathi:
+        pilot.card
+        print(pilot.getName())
