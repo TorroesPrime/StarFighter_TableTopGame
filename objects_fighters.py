@@ -1,6 +1,6 @@
 from class_ship import ship
 from objects_canons import *
-
+from test_control import test
 abilities = {"sabre":"The F-57B Sabre mounts a computer controleld rear turret that covers its rear quadrant. \
 This weapon fires independently of the main ship allowing it to target a different ship to the pilot themselves\
 . The Turret has a Gunnery Skill of 4 and mounts 2 Neutron Guns.",
@@ -90,5 +90,6 @@ fighters.append(F27C)
 evasiveMeassures = ('Decoy',1)
 Y105A = ship("Y-105a","Confed",4,6,8,10,evasiveMeassures,abilities["none"],4,Photon,2)
 fighters.append(Y105A)
-for fighter in fighters:
-    fighter.card()
+if test_control.test:
+    for fighter in fighters:
+        fighter.card()

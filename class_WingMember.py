@@ -1,6 +1,6 @@
 from class_pilot import pilot
 from class_ship import ship
-
+from test_control import test, print_test
 class WingMember:
     def __init__(self, designation, pilot, fighter):
         self.pilot = pilot
@@ -8,6 +8,8 @@ class WingMember:
         self.designation = designation
     def card(self):
         description = str(self.pilot.getName())+' is piloting a '+self.fighter.getName()
+        if print_test:
+            print(description)
         return description
     def shooting(self, target, dice):
         if dice.roll() <= self.pilot.GunnerySkill:
