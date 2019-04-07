@@ -8,7 +8,7 @@ class WingMember:
         self.designation = designation
     @property
     def card(self):
-        description = str(pilot.getName())+' is piloting a '+fighter.getName()
+        description = str(self.pilot.getName())+' is piloting a '+self.fighter.getName()
         return description
     def shooting(self, target, dice):
         if dice.roll() <= self.pilot.GunnerySkill:

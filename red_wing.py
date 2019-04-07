@@ -1,4 +1,3 @@
-import objects_pilots
 from objects_pilots import pilotsKilrathi
 from class_WingMember import WingMember
 import objects_canons
@@ -14,3 +13,4 @@ if test_control.test:
 
 
 red_1 = WingMember('red 1',K007,KRF07C)
+red_1.card()
