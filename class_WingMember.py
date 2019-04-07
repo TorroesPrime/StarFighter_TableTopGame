@@ -6,7 +6,6 @@ class WingMember:
         self.pilot = pilot
         self.fighter = fighter
         self.designation = designation
-    #@property
     def card(self):
         description = str(self.pilot.getName())+' is piloting a '+self.fighter.getName()
         return description
