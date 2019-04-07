@@ -13,4 +13,4 @@ if test_control.test:
 
 
 red_1 = WingMember('red 1',K007,KRF07C)
-
+red_1.card()
