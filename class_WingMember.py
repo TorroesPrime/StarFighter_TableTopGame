@@ -1,6 +1,7 @@
 from class_pilot import pilot
 from class_ship import ship
 from test_control import test, print_test
+from class_dice import diceObject
 class WingMember:
     def __init__(self, designation, pilot, fighter):
         self.pilot = pilot
