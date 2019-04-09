@@ -15,17 +15,17 @@ class WingMember:
     def shooting(self, target, dice):
         gunnerycheck = dice.roll()
         if gunnerycheck <= self.pilot.GunnerySkill:
-            print("shooting attack passed")
+            if print_test:
+                print("shooting attack passed")
             attack = True
-            result = str(self.pilot.name)+" attacks "+str(target.name)+". He rolls a "+gunnerycheck+" signalling that is on target with his shot." 
-            result = 'yes'
-            self.dodging(target, dice)
+            print(str(self.pilot.name)+" attacks "+str(target.pilot.name)+". He rolls a "+str(gunnerycheck)+" signalling that is on target with his shot.")
+            #self.dodging(target, dice)
         else:
-            print("shooting attack failed")
-            #result = str(self.pilot.name)+" attacks "+str(target.name)+". He rolls a "+gunnerycheck+" signalling that is on target with his shot." 
+            if print_test:
+                print("shooting attack failed")
+            print(str(self.pilot.name)+" attacks "+str(target.pilot.name)+". He rolls a "+str(gunnerycheck)+" signalling that his shot has gone wide and will miss "+str(target.pilot.name)+"." )
             attack = False
-            result = 'no'
-            return attack, result
+        return attack
 
     def dodging(self, attacker, dice):
         if dice.roll() <= self.pilot.PilotSkill -2:

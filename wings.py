@@ -30,4 +30,4 @@ for member in redWing:
 
 for kilrathi in redWing:
     for Confed in blueWing:
-        print(kilrathi.shooting(Confed, d10))
+        kilrathi.shooting(Confed, d10)
