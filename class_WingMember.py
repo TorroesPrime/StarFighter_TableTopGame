@@ -18,11 +18,13 @@ class WingMember:
             print("shooting attack passed")
             attack = True
             result = str(self.pilot.name)+" attacks "+str(target.name)+". He rolls a "+gunnerycheck+" signalling that is on target with his shot." 
+            result = 'yes'
             self.dodging(target, dice)
         else:
             print("shooting attack failed")
-            result = str(self.pilot.name)+" attacks "+str(target.name)+". He rolls a "+gunnerycheck+" signalling that is on target with his shot." 
+            #result = str(self.pilot.name)+" attacks "+str(target.name)+". He rolls a "+gunnerycheck+" signalling that is on target with his shot." 
             attack = False
+            result = 'no'
             return attack, result
 
     def dodging(self, attacker, dice):

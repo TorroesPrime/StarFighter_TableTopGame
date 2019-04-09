@@ -2,7 +2,7 @@ from objects_pilots import pilotsKilrathi
 from objects_pilots import *
 from class_WingMember import WingMember
 import objects_canons
-import d10
+from d10 import *
 import class_WingMember
 from test_control import test, print_test
 from objects_fighters import *
@@ -30,4 +30,4 @@ for member in redWing:
 
 for kilrathi in redWing:
     for Confed in blueWing:
-        kilrathi.shooting(Confed, d10)
+        print(kilrathi.shooting(Confed, d10))
