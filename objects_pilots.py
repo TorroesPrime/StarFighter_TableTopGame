@@ -234,9 +234,10 @@ for pilot in Pilots_DB:
     elif pilot.faction == "Kilrathi":
         pilotsKilrathi.append(pilot)
 
-#print("pilots of the Confederation")
-#for pilot in pilotsConfed:
-#    pilot.card()
+if test_control.test:
+    print("pilots of the Confederation")
+    for pilot in pilotsConfed:
+        pilot.card()
 
 if test_control.test:
     print("Kilrathi Pilots")

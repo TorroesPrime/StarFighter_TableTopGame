@@ -25,8 +25,8 @@ blueWing.append(blue_1)
 blueWing.append(blue_2)
 blueWing.append(blue_3)
 
-for member in redWing:
-    member.card()
+#for member in redWing:
+#    member.card()
 
 for kilrathi in redWing:
     for Confed in blueWing:

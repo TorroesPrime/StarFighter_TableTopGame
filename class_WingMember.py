@@ -2,6 +2,7 @@ from class_pilot import pilot
 from class_ship import ship
 from test_control import test, print_test
 from class_dice import diceObject
+import strings
 class WingMember:
     def __init__(self, designation, pilot, fighter):
         self.pilot = pilot
@@ -12,26 +13,29 @@ class WingMember:
         if print_test:
             print(description)
         return description
-    def shooting(self, target, dice):
+    def shooting(self, target,dice):
         gunnerycheck = dice.roll()
+        attacker =str(self.pilot.name)
+        target = str(target.pilot.name) 
         if gunnerycheck <= self.pilot.GunnerySkill:
             if print_test:
                 print("shooting attack passed")
             attack = True
-            print(str(self.pilot.name)+" attacks "+str(target.pilot.name)+". He rolls a "+str(gunnerycheck)+" signalling that is on target with his shot.")
-            #self.dodging(target, dice)
+            print(str(attacker)+" attacks "+str(target)+". He rolls a "+str(gunnerycheck)+" signalling that is on target with his shot.")
+           # target.dodging(dice)
         else:
             if print_test:
                 print("shooting attack failed")
-            print(str(self.pilot.name)+" attacks "+str(target.pilot.name)+". He rolls a "+str(gunnerycheck)+" signalling that his shot has gone wide and will miss "+str(target.pilot.name)+"." )
+            print(str(attacker)+" attacks "+str(target)+". He rolls a "+str(gunnerycheck)+" signalling that his shot has gone wide and will miss "+str(target)+"." )
             attack = False
         return attack
 
-    def dodging(self, attacker, dice):
-        if dice.roll() <= self.pilot.PilotSkill -2:
-            print("Attack dodged")
+    def dodging(self, dice):
+        dodgecheck = dice.roll()
+        if dodgecheck <= self.pilot.PilotSkill -2:
+            print(self.pilot.name+"Attack dodged")
         else:
-            print("Dodge attempt failed")
+            print(self.pilot.name+"tried to dodge, but rolled "+str(dodgecheck)+" which is a failure.")
 
     def damage(self, attacker):
         self.fighter.hullpoints = self.fighter.hullpoints - attacker.can_damage
