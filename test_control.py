@@ -1,2 +1,2 @@
 test = False
-print_test = False
+print_test = True

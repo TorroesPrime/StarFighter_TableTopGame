@@ -2,7 +2,7 @@ from class_pilot import pilot
 from class_ship import ship
 from test_control import test, print_test
 from class_dice import diceObject
-import strings
+from strings import *
 class WingMember:
     def __init__(self, designation, pilot, fighter):
         self.pilot = pilot
@@ -19,14 +19,19 @@ class WingMember:
         target = str(target.pilot.name) 
         if gunnerycheck <= self.pilot.GunnerySkill:
             if print_test:
-                print("shooting attack passed")
+                print(linebreak)
+                print(hit)
             attack = True
+            print(header)
             print(str(attacker)+" attacks "+str(target)+". He rolls a "+str(gunnerycheck)+" signalling that is on target with his shot.")
+            print(linebreak)
            # target.dodging(dice)
         else:
             if print_test:
-                print("shooting attack failed")
+                print(header)
+                print(miss)
             print(str(attacker)+" attacks "+str(target)+". He rolls a "+str(gunnerycheck)+" signalling that his shot has gone wide and will miss "+str(target)+"." )
+            print(linebreak)
             attack = False
         return attack
 
