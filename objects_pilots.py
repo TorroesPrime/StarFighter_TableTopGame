@@ -238,9 +238,7 @@ if test_control.test:
     print("pilots of the Confederation")
     for pilot in pilotsConfed:
         pilot.card()
-
 if test_control.test:
     print("Kilrathi Pilots")
     for pilot in pilotsKilrathi:
-        pilot.card
-        print(pilot.getName())
+        pilot.card()
