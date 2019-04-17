@@ -1,0 +1,70 @@
+Kilranka Blood sworn in a KF-65B Dralthi IV                -485
+Bakhtosh 'Redclaw' nar Kiranka in a KF-65B Dralthi IV     -400
+Bhurak 'Starkiller' nar Caxki in a KF-65B Dralthi IV      -370
+Dakhath nar Sihkag in a KF-65B Dralthi IV                 -400
+First Tooth pilot in a KF-65B Dralthi IV                  -320
+Primary Fang pilot in a KF-65B Dralthi IV                 -340
+Prince Thrakath nar Kilranka in a KF-65B Dralthi IV       -470
+Ja'Trosh 'Lone Fang' nar Caxkal in a KF-65B Dralthi IV    -385
+First Tooth pilot in a KB-600B Paktahn Bomber                  -455
+Primary Fang pilot in a KB-600B Paktahn Bomber            -475
+Kilranka Blood sworn in a KF-09A Dralthi II          -380
+Khajja nar Ja'targk in a KF-09A Dralthi II                -400
+Bakhtosh 'Redclaw' nar Kiranka in a KF-09A Dralthi II     -295
+Bhurak 'Starkiller' nar Caxki in a KF-09A Dralthi II      -265
+Dakhath nar Sihkag in a KF-09A Dralthi II                 -295
+First Tooth pilot in a KF-09A Dralthi II                  -215
+Primary Fang pilot in a KF-09A Dralthi II                 -235
+Prince Thrakath nar Kilranka in a KF-09A Dralthi II       -365
+Ja'Trosh 'Lone Fang' nar Caxkal in a KF-09A Dralthi II    -280
+Bhurak 'Starkiller' nar Caxki in a KHFB-1066C VokToth      -495
+First Tooth pilot in a KHFB-1066C VokToth                 -445
+Primary Fang pilot in a KHFB-1066C VokToth                -465
+Kilranka Blood sworn in a KSF-119B Strakha              -335
+Khajja nar Ja'targk in a KSF-119B Strakha                 -355
+Bakhtosh 'Redclaw' nar Kiranka in a KSF-119B Strakha      -250
+Bhurak 'Starkiller' nar Caxki in a KSF-119B Strakha       -220
+Dakhath nar Sihkag in a KSF-119B Strakha                  -250
+First Tooth pilot in a KSF-119B Strakha                   -170
+Primary Fang pilot in a KSF-119B Strakha                  -190
+Prince Thrakath nar Kilranka in a KSF-119B Strakha        -320
+Ja'Trosh 'Lone Fang' nar Caxkal in a KSF-119B Strakha     -235
+Kilranka Blood sworn in a KHFA-983A Darket                -380
+Khajja nar Ja'targk in a KHFA-983A Darket                 -400
+Bakhtosh 'Redclaw' nar Kiranka in a KHFA-983A Darket      -295
+Bhurak 'Starkiller' nar Caxki in a KHFA-983A Darket       -265
+Dakhath nar Sihkag in a KHFA-983A Darket                  -295
+First Tooth pilot in a KHFA-983A Darket                   -215
+Primary Fang pilot in a KHFA-983A Darket                  -235
+Prince Thrakath nar Kilranka in a KHFA-983A Darket        -365
+Ja'Trosh 'Lone Fang' nar Caxkal in a KHFA-983A Darket     -280
+Gwen 'Archer' Bowman in a F-86C Hellcat V Assault Fighter                -435
+'Seether' in a F-86C Hellcat V Assault Fighter            -495
+Troy 'Cathscratch' Carter in a F-86C Hellcat V Assault Fighter-385
+Winston 'Vagabond' Chang in a F-86C Hellcat V Assault Fighter-440
+Confederation Lieutenant in a F-86C Hellcat V Assault Fighter-350
+Confederation Rookie in a F-86C Hellcat V Assault Fighter -330
+Gwen 'Archer' Bowman in a F-86C Hellcat V Assault Fighter -435
+'Seether' in a F-86C Hellcat V Assault Fighter            -495
+Troy 'Cathscratch' Carter in a F-86C Hellcat V Assault Fighter-385
+Winston 'Vagabond' Chang in a F-86C Hellcat V Assault Fighter-440
+Confederation Lieutenant in a F-86C Hellcat V Assault Fighter-350
+Confederation Rookie in a F-86C Hellcat V Assault Fighter -330
+Confederation Rookie in a A-17A Broadsword -495
+Troy 'Cathscratch' Carter in a A-14 Raptor           -470
+Confederation Lieutenant in a A-14 Raptor                 -435
+Confederation Rookie in a A-14 Raptor                     -415
+Confederation Lieutenant in a F-27C Arrow                 -475
+Confederation Rookie in a F-27C Arrow                     -455
+Gwen 'Archer' Bowman in a FA-36A Hornet                     -260
+'Seether' in a FA-36A Hornet                              -320
+Troy 'Cathscratch' Carter in a FA-36A Hornet              -210
+Winston 'Vagabond' Chang in a FA-36A Hornet               -265
+Confederation Lieutenant in a FA-36A Hornet               -175
+Confederation Rookie in a FA-36A Hornet                   -155
+Gwen 'Archer' Bowman in a FA-36A Hornet                   -260
+'Seether' in a FA-36A Hornet                              -320
+Troy 'Cathscratch' Carter in a FA-36A Hornet              -210
+Winston 'Vagabond' Chang in a FA-36A Hornet               -265
+Confederation Lieutenant in a FA-36A Hornet               -175
+Confederation Rookie in a FA-36A Hornet                   -155

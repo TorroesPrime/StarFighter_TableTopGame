@@ -52,8 +52,10 @@ class pilot:
         self.Ability = Ability
     def getName(self):
         return self.name
-    def setCost(self, cost):
+    def setPoints(self, cost):
         self.__points = cost
+    def setCost(self, cost):
+        self.__cost = cost
     def getCost(self):
         return self.__cost
     def card(self):
