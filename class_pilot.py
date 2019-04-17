@@ -40,7 +40,7 @@ pilot_abilities = {
     "Ja'Trosh":"Ja'Trosh is a loner by nature and prefers to fight on his own. He is unaffected by abilities that modify his psych stat, both enemy and friendly. he can re-roll failed Pilot Skill tests. if he is alone (started with no wing mates) count his Psych as being a 7",
     "First Tooth":"",
 }
-class pilot:
+class Pilot:
     def __init__(self, name, faction, PilotSkill,GunnerySkill,Psych,Ability):
         self.__points = int(10)
         self.name = str(name)
@@ -50,21 +50,21 @@ class pilot:
         self.Psych = int(Psych)
         self.__cost = int((Psych*self.__points)+(GunnerySkill*self.__points)+(PilotSkill*self.__points))
         self.Ability = Ability
-    def getName(self):
+    def get_Name(self):
         return self.name
-    def setPoints(self, cost):
+    def set_Points(self, cost):
         self.__points = cost
-    def setCost(self, cost):
+    def set_Cost(self, cost):
         self.__cost = cost
-    def getCost(self):
+    def get_Cost(self):
         return self.__cost
-    def card(self):
+    def print_InfoCard(self):
         print("|"+" "*(30-(int(len(self.name)/2)))+self.name+" "*(30-(int(len(self.name)/2)))+"|")
         print("| Pilot Skill: "+str(self.PilotSkill)+" "*4+"| Gunnery Skill: "+str(self.GunnerySkill)+" "*4+"| Psych: "+str(self.Psych)+" "*10+"|")
         print("| Pilot cost: "+str(self.getCost()))
         print("| Pilot Ability: "+str(self.Ability))
         print("="*75)
-    def psych_test(self, dice):
+    def psych_Test(self, dice):
         if dice.roll() <= self.Psych:
             print("Psych test passed")
         else:

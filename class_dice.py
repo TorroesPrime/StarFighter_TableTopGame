@@ -1,6 +1,6 @@
 import random
 
-class diceObject:
+class DiceObject:
     def __init__(self, sides):
         self.sides = sides
 

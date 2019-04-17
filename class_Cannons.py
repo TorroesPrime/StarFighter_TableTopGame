@@ -6,7 +6,7 @@ class Cannons:
         self.can_shots = can_shots
         self.can_special = can_special
         self.cost = cost
-    def card(self):
+    def print_InfoCard(self):
         name = " "+self.name+" "*(17-len(self.name)+1)
         if len(str(self.can_range)) == 2:
             cannon_range = "  "+str(self.can_range)+"   "
@@ -25,9 +25,9 @@ class Cannons:
         print("|      Name         | Range | Dmg | Shots | Special:                      |")
         print(f"|{name}|{cannon_range}|{cannon_damage}|{shots}|{self.can_special}                           |")
         print("="*75)
-    def get_cost(self):
+    def get_Cost(self):
         return self.cost
-    def get_name(self):
+    def get_Name(self):
         return self.name
     def get_range(self):
         return self.can_range

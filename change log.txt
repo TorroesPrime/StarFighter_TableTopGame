@@ -1,0 +1,33 @@
+class_canons.py: 
+	-renamed files to class_Cannons.py
+	-changed class canons to class Cannons
+	-changed method card to print_InfoCard
+	-changed method get_cost to get_Cost
+	-changed method get_name to get_Name
+
+class_dice.py:
+	-changed class diceobject to class DiceObject
+
+class_pilot.py:
+	-changed class pilot to class Pilot
+	-changed method getname to get_Name 
+	-changed method setPoints to set_Points 
+	-changed method setCost to set_Cost 
+	-changed method getCost to get_Cost 
+	-changed method card to print_InfoCard
+	-changed method psych_test to psych_Test
+
+class_ship.py:
+	-changed class ship to class Ship
+	-changed method get_name to get_Name
+	-changed method setPoints to set_Points
+	-changed method setCost to set_Cost 
+	-changed method getCost to get_Cost 
+	-changed method card to print_InfoCard
+	-changed method setEvasiveMeassures to print_InfoCard
+
+class_WingMember.py:
+	-changed method card to print_InfoCard	
+	-changed method shooting to test_Shooting	
+	-changed method dodging to test_Dodging
+	-changed method damage to set_Damage
