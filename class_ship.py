@@ -19,7 +19,7 @@ class ship():
     def setCost(self, cost):
         self.__points = cost
     def getCost(self):
-        return self.__cost
+        return self.cost
     def card(self):
         cost1 = "| "+(" ")*int((10-len(str(self.cost))-1)/2)+str(self.cost)
         cost2 = " "*(10-len(cost1))+" |"

@@ -36,6 +36,9 @@ pilot_abilities = {
     "se'aka":"",
     "sek'a":"",
     "Thrakath":"If Prince Thrakath is deployed, he is automatically the Wing Leader. If there is more then one wing, he automatically the Squadron Commander. His wing members do not test for stress if they are outnumbers at the begining of the game. Thrakath himself may re-roll any failed gunnery tests he suffers. he may re-roll a single failed dodge test per game turn.",
+    "Primary Fang":"",
+    "Ja'Trosh":"Ja'Trosh is a loner by nature and prefers to fight on his own. He is unaffected by abilities that modify his psych stat, both enemy and friendly. he can re-roll failed Pilot Skill tests. if he is alone (started with no wing mates) count his Psych as being a 7",
+    "First Tooth":"",
 }
 class pilot:
     def __init__(self, name, faction, PilotSkill,GunnerySkill,Psych,Ability):

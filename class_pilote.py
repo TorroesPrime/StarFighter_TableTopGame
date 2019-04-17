@@ -13,7 +13,7 @@ class pilot:
         print("| Pilot Ability: "+str(self.Ability))
         print("="*75)
     def psych_test(self, dice):
-        if d10.roll() <= self.Psych:
+        if dice.roll() <= self.Psych:
             print("Psych test passed")
         else:
             print("Psych test failed") 
